@@ -1,8 +1,14 @@
 # Challenge: To Create a function called uppercase_and_reverse that takes a little bit of text, uppercases it all, 
 # and then resverses it (flips all the letters around)
+
 def uppercase_and_reverse(text):
 	modified_text=text[::-1]
 	return modified_text.upper()
+
+def up_and_rev(text2):
+	return text2.upper()[::-1]
+
+print(up_and_rev("Gibblets"))
 
 text = "Lauren's name"
 
